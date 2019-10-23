@@ -50,6 +50,7 @@ def total_gross(source)
   directors = list_of_directors(source)
   while director_count < directors do
     total += by_director[director[director_count]ß]
+    director_count += 1
   end
   total
 end
